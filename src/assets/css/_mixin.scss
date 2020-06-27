@@ -1,0 +1,19 @@
+// HR BAR
+@mixin pageName($fSize) {
+font-family: $indieflower;
+font-size: $fSize;
+color: $greypink;
+}
+@mixin festivalName($fSize) {
+font-family: $caveat;
+font-size: $fSize;
+color: $exotic;
+text-shadow: 0.5px 0px 1px white;
+}
+@mixin festivalLocation($fSize) {
+font-style: italic;
+font-weight: 300;
+font-size: $fSize;
+color: $lightgray;
+margin-bottom: 15px;
+}

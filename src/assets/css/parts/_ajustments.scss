@@ -1,0 +1,22 @@
+// To get a better size of the Sunset Logo on the homepage, I reduce the widht each 100px
+@media screen and (min-width:601px) and (max-width:700px) {
+    #sunset-logo {
+	width: 42vw;
+	}
+}
+@media screen and (min-width:701px) and (max-width:800px) {
+    #sunset-logo {
+	width: 39vw;
+	}
+}
+@media screen and (min-width:801px) and (max-width:900px) {
+    #sunset-logo {
+	width: 35vw;
+	}
+}
+@media screen and (min-width:801px) and (max-width:900px) {
+    #sunset-logo {
+	width: 35vw;
+	}
+}
+

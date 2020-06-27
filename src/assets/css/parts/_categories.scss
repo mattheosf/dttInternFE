@@ -1,0 +1,28 @@
+#festival-countries {
+text-align: center;
+}
+.countries-top {
+padding: 5px;
+margin-bottom: 15px;
+}
+.hrbar-ct {
+width: 70%;
+}
+.page-name {
+@include pageName(250%);
+margin-bottom: 15px;
+margin-top: 55px;
+}
+.festivalCT-box {
+margin-bottom: 15px;
+}
+.festivalCT-location {
+font-family: $roboto;
+font-size: 140%;
+font-weight: 200;
+}
+.CTF-link {
+@include festivalName(155%);
+text-decoration: none;
+}
+

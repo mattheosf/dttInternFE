@@ -1,0 +1,151 @@
+// general
+#burgermenu {
+top: 40px;
+left: 40px;
+width: 45px;
+border-radius: 6px;
+}
+.nav-icon {
+display: block;
+width: 25px;
+margin-left: 50%;
+transform: translate(-50%);
+color: white;
+} 
+.nav-boxing {
+position: fixed;
+border-bottom: 1px solid black;
+text-align: center;
+background-color: #1f0a06;
+width: 100%;
+height: 40px;
+padding: 15px;
+}
+.nav-btn {
+width: 25%;
+display: inline-block;
+margin-bottom: 5px;
+}
+#closingmenu {
+top: 15px;
+right: 25px;
+font-size: 250%;
+}
+// on Homepage
+#sunset-logo {
+width: 20vw;
+}
+.main-title {
+padding-top: 20vh;
+}
+.app-title {
+font-size: 305%;
+}
+.app-comment {
+margin: 0 20% 0 20%;
+font-size: 135%;
+}
+.content-app {
+display: flex;
+justify-content: space-between;
+flex-wrap: wrap;
+margin: 0 10% 5% 10%;
+}
+#sorting-btn {
+position: absolute;
+top: 5px;
+left: 5px;
+}
+.festival-name {
+font-size: 265%;
+}
+.festival-desc {
+min-height: 50px;
+margin-bottom: 9px;
+}
+.festival-box {
+width: 45%;
+min-height: 100px;
+}
+#seemore-div {
+font-size: 125%;
+}
+.festival-box:nth-child(2) > .hr-bar {
+display: none;
+}
+.festival-box:nth-last-child(2) > .hr-bar {
+display: none;
+}
+.festival-box:nth-child(2n) > .hr-bar {
+width: 100%;
+}
+@media screen and (min-width:901px) and (max-width:1250px) {
+    .main-title {
+	padding-top: 25vh;
+	}
+}
+// on Festival Page 
+.pagef-name {
+font-size: 350%;
+}
+.pagef-location {
+font-size: 105%;
+}
+#festival-picture {
+width: 45vw;
+height: 300px;
+}
+.festival-data {
+display: grid;
+grid-template-areas: 
+	" info pricing "
+	" maps maps "
+}
+.data-info {
+grid-area: info;
+padding: 0 15% 0 15%;
+}
+.data-price {
+grid-area: pricing;
+padding: 0 15% 0 15%;
+}
+.data-maps {
+grid-area: maps;
+text-align: center;
+}
+.data-section-comment {
+text-align: justify;
+}
+#apimaps {
+margin: 0 10% 0 10%;
+width: 80%;
+}
+@media screen and (min-width:901px) and (max-width:1250px) {
+    #festival-picture {
+	width: 50vw;
+	}
+}
+// on Countries page
+.hrbar-ct {
+width: 20%;
+}
+.festivalCT-location {
+font-size: 145%;
+}
+.festivalCT-name {
+font-size: 125%;
+}
+// on Randomizer page
+#random-btn {
+font-size: 145%;
+}
+.rdfestival-box {
+margin: 100px 20% 25px 20%;
+padding: 35px;
+}
+.rdfestival-name {
+font-size: 360%;
+}
+.seemoreonrd {
+font-size: 110%;
+}

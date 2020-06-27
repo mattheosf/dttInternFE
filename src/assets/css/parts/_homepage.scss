@@ -1,0 +1,77 @@
+#main-content {
+text-align: center;
+margin-bottom: 5%;
+}
+.main-title {
+box-sizing: border-box;
+width: 100%;
+height: 100vh;
+padding-top: 25vh;
+}
+#sunset-logo {
+width: 45vw;
+}
+.app-title {
+@include pageName(250%);
+margin-top: -35px;
+text-shadow: 1px 2px 2.5px #8e8989;
+}
+.app-comment {
+margin: 0 10% 0 10%;
+font-family: "Open Sans";
+font-size: 115%;
+font-style: oblique;
+}
+#sorting-btn {
+font-style: italic;
+font-weight: 500;
+font-size: 80%;
+font-family: $exo2;
+}
+.content-app {
+margin: 0 15% 5% 15%;
+position: relative;
+}
+.festival-box {
+padding: 15px;
+}
+.festival-name {
+@include festivalName(245%);
+}
+.homepage-fn:hover {
+color: $bluegem;
+}
+.festival-location {
+@include festivalLocation(95%);
+}
+.festival-desc {
+font-weight: 300;
+font-size: 98%;
+margin-bottom: 5px;
+}
+.seemore-btn {
+color: $sunsetred;
+font-size: 90%;
+font-family: $roboto;
+text-decoration: none;
+	&:hover {
+	cursor: pointer;
+	}
+}
+.festival-box:last-child > hr {
+display: none;
+}
+.festival-box:nth-child(2n) > .hr-bar {
+width: 60%;
+}
+.festival-box:nth-child(n+4) {
+display: none;
+}
+#seemore-div {
+font-family: $exo2;
+color: #423910;
+	&:hover {
+	font-weight: 600;
+	cursor: pointer;
+	}
+}

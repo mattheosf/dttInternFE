@@ -1,0 +1,44 @@
+.random-top {
+padding: 5px;
+margin-bottom: 25px;
+}
+.page-comment {
+margin: 0 10% 0 10%;
+font-style: italic;
+}
+#festival-random {
+text-align: center;
+height: 100vh;
+}
+#random-btn {
+text-transform: uppercase;
+font-family: $exo2;
+font-size: 125%;
+color: red;
+background: none;
+border: none;
+	&:hover {
+	cursor: pointer;
+	font-weight: 600;
+	}
+}
+.rdfestival-box {
+border: 1px solid white;
+margin: 100px 10% 25px 10%;
+padding: 25px;
+}
+.rd-comment {
+font-size: 115%;
+}
+.rdfestival-name {
+font-size: 300%;
+}
+.desconrd {
+margin-bottom: 25px;
+}
+.btn-comment {
+margin-top: 15px;
+color: lightgrey;
+font-size: 65%;
+font-style: italic;
+}

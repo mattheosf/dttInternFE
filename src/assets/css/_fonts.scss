@@ -1,0 +1,31 @@
+//// FONTS ////
+// I'm defining the font-face of each fonts, not usual we could say I'll use in this app.
+// It's usually better to ensure the compatibility between each engines.
+
+// for Indie Flower
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+@font-face {
+    font-family: 'Indie Flower', cursive;
+    src: url('fonts/IndieFlower.ttf') format('truetype');
+}
+// for Roboto
+@font-face {
+    font-family: 'Roboto';
+    src: url('fonts/Roboto.ttf') format('truetype');
+}
+// for Exo 2
+@font-face {
+    font-family: 'Exo 2';
+    src: url('fonts/Exo2.ttf') format('truetype');
+}
+// for Caveat
+@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
+@font-face {
+    font-family: 'Caveat', cursive;
+    src: url('fonts/Caveat.ttf') format('truetype');
+}
+// for Raleway
+@font-face {
+    font-family: 'Raleway';
+    src: url('fonts/Raleway.ttf') format('truetype');
+}
