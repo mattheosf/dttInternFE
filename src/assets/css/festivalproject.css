@@ -238,13 +238,13 @@ body::-webkit-scrollbar-track {
 .festivalCT-box {
   margin-bottom: 15px; }
 
-.festivalCT-name {
-    font-size: 125%; }
-
 .festivalCT-location {
   font-family: "Roboto";
   font-size: 140%;
   font-weight: 200; }
+
+.festivalCT-name {
+  font-size: 125%; }
 
 .CTF-link {
   font-family: "Caveat";
@@ -448,3 +448,5 @@ body::-webkit-scrollbar-track {
 
   .seemoreonrd {
     font-size: 110%; } }
+
+/*# sourceMappingURL=festivalproject.css.map */

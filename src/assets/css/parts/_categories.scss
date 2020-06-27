@@ -21,6 +21,9 @@ font-family: $roboto;
 font-size: 140%;
 font-weight: 200;
 }
+.festivalCT-name {
+font-size: 125%; 
+}
 .CTF-link {
 @include festivalName(155%);
 text-decoration: none;
