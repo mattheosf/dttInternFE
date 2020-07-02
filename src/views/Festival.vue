@@ -6,7 +6,7 @@
       <div class="festival-top">
         <h2 class="pagef-name">{{ festiName }}</h2>
           <p class="pagef-location">Taking place in {{ festiCity }}, {{ festiCountry }} usually during the month of {{ festiMonth }}</p>
-      	  <img id="festival-picture" :src="festiPict" :alt="`Picture of cc`">
+      	  <img id="festival-picture" :src="festiPict" :alt="`Picture of ${festiName}`">
       </div>
 
       <div class="festival-data">
